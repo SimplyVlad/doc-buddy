@@ -1,5 +1,5 @@
 # doc-buddy
-An open-source RAG with an interactive followup question generator.
+An open-source RAG with an interactive follow-up question generator.
 
 ## Goal
 To create a custom RAG to work on medical documents as an assistant for junior physicians.
