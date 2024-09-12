@@ -21,7 +21,7 @@ is accepted.
 
 1. Read and chunk a PDF file/directory of files using [data_processing_and_chunking.ipynb](https://github.com/SimplyVlad/doc-buddy/blob/main/data_preparation/data_processing_and_chunking.ipynb) in order to create ```data/data_cleaned.csv``` and ```data/full_page_info.csv```.
 2. Run [API_notebook.ipynb](https://github.com/SimplyVlad/doc-buddy/blob/main/backend/API_notebook.ipynb) to create a vector store and host the search and model generation API end points. We recommend using a managed environment such as Google Colab. The notebook was tested on a
-Google Colab with A100 GPU. The ngrock tunnel link should be copied and pasted to ```client_notebook.ipynb````
+Google Colab with A100 GPU. The ngrock tunnel link should be copied and pasted to ```client_notebook.ipynb```
 3. The [client_notebook.ipynb](https://github.com/SimplyVlad/doc-buddy/blob/main/client_notebook.ipynb) can be run both in an environment using ```jupyter notebook``` or directly by building a docker container using
 ```docker build -t container_name```
 ```docker run container_name ```
