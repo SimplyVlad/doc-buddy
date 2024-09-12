@@ -30,7 +30,7 @@ Make sure to include the latest ```data/data_cleaned.csv``` with the same data s
 ## TODOs:
 
 1. Create a less GPU hungry version using another LLM server such as TensorRT
-2. Reevaluate the Retrieval strategies and optimize for a better one
+2. Reevaluate the Retrieval strategies and optimize for a better performance
 3. Reiterate the Generation strategy using a structured extraction approach and conversation memory
 4. Create a version utilizing proprietary LLMs for maximum initial performance
 5. Abstract a boilerplate, ready to use version, for any set of PDF documents
